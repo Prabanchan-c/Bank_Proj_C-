@@ -20,10 +20,12 @@ int main()
     {
         case MAIN_ENTER:
             cout<<"WELCOME TO BANK"<<endl;
+            Cust_Data_init();
             break;
 
         case MAIN_EXIT:
             cout<<"THANK YOU! COME AGAIN"<<endl;
+            Cust_Data_cleanup();
             break;
 
         default:
