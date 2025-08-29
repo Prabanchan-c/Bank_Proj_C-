@@ -1,0 +1,90 @@
+Perfect! 🚀 Since you’re self-learning C++, I’ll break this **Bank Project** into **tasks** (like checkpoints). Each task will help you **build step by step**, instead of jumping into the full project at once.
+
+---
+
+## 📌 Task-Based Roadmap for C++ Bank Project
+
+### **Task 1: Basic C++ Refresh**
+
+✅ Write a simple program that:
+
+* Takes your name and balance as input.
+* Prints a welcome message with your balance.
+  *(Goal: practice `cin`, `cout` and variables)*
+
+---
+
+### **Task 2: Create an Account Class**
+
+✅ Define a class `Account` with:
+
+* Data members → `accountNumber`, `name`, `balance`
+* Member functions → `createAccount()`, `displayAccount()`
+  *(Goal: understand OOP basics and encapsulation)*
+
+---
+
+### **Task 3: Deposit & Withdraw**
+
+✅ Add two methods:
+
+* `deposit(amount)` → increases balance
+* `withdraw(amount)` → decreases balance (check if sufficient)
+  *(Goal: practice member functions & conditions)*
+
+---
+
+### **Task 4: Manage Multiple Accounts**
+
+✅ Use a `vector<Account>` (or array) to store multiple accounts.
+
+* Write a function to **search account by accountNumber**.
+* Add menu options to **create, deposit, withdraw, show account**.
+  *(Goal: practice STL containers and loops)*
+
+---
+
+### **Task 5: File Handling**
+
+✅ Store accounts permanently:
+
+* Save all accounts into a file (`accounts.dat`).
+* Load accounts from file when program starts.
+  *(Goal: practice `fstream` for save/load data)*
+
+---
+
+### **Task 6: Menu-Driven Program**
+
+✅ Create a loop with options:
+
+1. Create account
+2. Deposit
+3. Withdraw
+4. Balance enquiry
+5. List all accounts
+6. Exit
+   *(Goal: combine everything into a working mini-project)*
+
+---
+
+### **Task 7 (Optional - Advanced):**
+
+✅ Add more real-bank features:
+
+* Account **deletion**
+* **Password/PIN** protection
+* Interest calculation
+* Switch from **file** → **database (SQLite/MySQL)**
+
+---
+
+👉 My suggestion:
+
+* Complete **Task 1 → Task 3** in one go (they’re small).
+* Then move to **Task 4 & 5** (they are the real project base).
+* End with **Task 6** (final working bank project).
+
+---
+
+Do you want me to **write the code skeleton** for **Task 1 to Task 3** (basic version without file handling) so you can start coding right away?

@@ -2,7 +2,8 @@ CXX = g++
 CXXFLAGS = -std=c++17 -Wall
 TARGET = BANK_PRJ_TEST
 
-SRC = main.cpp
+SRC = main.cpp\
+	  Cust_Data/Cust_Data.cpp
 
 all : $(TARGET)
 
