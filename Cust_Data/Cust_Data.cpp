@@ -34,7 +34,7 @@ void Cust_Data_init()
     Cust_Data();
 
     Cust_Welcome();
-
+    
     Cust_Data_display();
 
 }
