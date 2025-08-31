@@ -47,6 +47,7 @@ void Cust_Data_init();
 void Cust_Data_cleanup();
 void Cust_Data();
 void Cust_Welcome();
+void Cust_Data_display();
 
 /*--------------------------------------------------------------------------------------------------------------------------------
 [E N D  F U N C T I O N  D E C L A R A T I O N]

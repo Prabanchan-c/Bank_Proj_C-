@@ -34,6 +34,9 @@ void Cust_Data_init()
     Cust_Data();
 
     Cust_Welcome();
+
+    Cust_Data_display();
+
 }
 
 void Cust_Data_cleanup()
@@ -64,7 +67,6 @@ void Cust_Data()
      getline(cin,CD.cus_state);
     cout << "\nPINCODE:";
      getline(cin,CD.cus_pincode);
-
 }
 
 void Cust_Welcome()
@@ -72,6 +74,18 @@ void Cust_Welcome()
 
         cout << "WELCOME " << CD.cus_name << " TO BANK" << endl;
         cout << "YOUR ACCOUNT BALANCE IS : "<<CUST_BAL<<endl;
+}
+
+void Cust_Data_display()
+{
+    cout << "Customer Name: " << CD.cus_name << endl;
+    cout << "Mobile Number: " << CD.cus_mobile << endl;
+    cout << "Email ID: " << CD.cus_email << endl;
+    cout << "Address 1: " << CD.cus_add1 << endl;
+    cout << "Address 2: " << CD.cus_add2 << endl;
+    cout << "District: " << CD.cus_district << endl;
+    cout << "State: " << CD.cus_state << endl;
+    cout << "Pincode: " << CD.cus_pincode << endl;
 }
 
 /*--------------------------------------------------------------------------------------------------------------------------------
